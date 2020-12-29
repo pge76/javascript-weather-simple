@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#4E3D42, #6D6466, #9F9F92, #C9D5B5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #E3DBDB;
+}
+
+.location,
+.temperature {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature {
+    flex-direction: column;
+}
+
+.degree {
+    display: flex;
+    align-items: center;
+}
+
+.degree span {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.degree h2 {
+    font-size: 40px;
+}
